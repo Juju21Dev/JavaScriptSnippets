@@ -30,7 +30,7 @@ const getComputerChoice = () => {
 const determineWinner = (userChoice, computerChoice) => {
     if (userChoice === 'bomb') {
         return 'You destroyed your opponent!';
-    }
+    };
     if (userChoice === computerChoice) {
         return 'This game is a tie!';
     };
